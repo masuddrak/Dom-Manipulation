@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <button id="greenBtn" onclick="greenBg()">green</button>
+    <br>
+    <button id="red">red</button>
+    <br>
+    <button id="yello">yello</button>
+
+    <script>
+        // step1
+        function greenBg() {
+            document.body.style.backgroundColor = "green"
+        }
+        // step2
+        const redBtn = document.getElementById("red")
+        redBtn.onclick = redBg
+        function redBg() {
+            document.body.style.backgroundColor = "red"
+        }
+        // step3
+        const yelloBtn = document.getElementById("yello")
+        yelloBtn.onclick = function yellobg() {
+            document.body.style.backgroundColor = "purple"
+        }
+    </script>
+
+
+    <script src="./dom.js"></script>
+</body>
+
+</html>
