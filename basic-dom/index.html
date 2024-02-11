@@ -10,31 +10,12 @@
 
 <body>
 
-    <button id="greenBtn" onclick="greenBg()">green</button>
-    <br>
-    <button id="red">red</button>
-    <br>
-    <button id="yello">yello</button>
+   <h1 id="main_headeing">The dom is powerfull in html cheange evreybody</h1>
+   <button id="change_hadin">change heading</button>
 
-    <script>
-        // step1
-        function greenBg() {
-            document.body.style.backgroundColor = "green"
-        }
-        // step2
-        const redBtn = document.getElementById("red")
-        redBtn.onclick = redBg
-        function redBg() {
-            document.body.style.backgroundColor = "red"
-        }
-        // step3
-        const yelloBtn = document.getElementById("yello")
-        yelloBtn.onclick = function yellobg() {
-            document.body.style.backgroundColor = "purple"
-        }
-    </script>
-
-
+   <p id="dealtText">Defalt text</p>
+   <input type="text" name="" id="my_input">
+   <button id="submit_btn">submit</button>
     <script src="./dom.js"></script>
 </body>
 

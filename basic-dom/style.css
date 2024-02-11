@@ -1,11 +1,3 @@
-.dom_headding{
+#main-headeing{
     text-align: center;
-    text-decoration: underline;
-    color: blue;
 }
-.menu_items{
-    background-color: #000 !important;
-    color: #fff;
-    padding: 80px;
-}
-
