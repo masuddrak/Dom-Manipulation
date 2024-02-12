@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>count project in dom</title>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <h1 class="text-3xl text-center font-bold mt-8 text-">Count Dom Menipulation</h1>
+    <section class="main_section flex justify-between w-4/6 mx-auto mt-3">
+        <div class="item text-center border-2 p-3">
+            <h1 id="count" class="text-4xl">0</h1>
+            <div class="mt-5">
+                <button id="incriment" class=" bg-black text-white p-2 rounded-xl">incriment</button>
+                <button id="dicriment" class=" bg-red-300 text-white p-2 rounded-xl">decriment</button>
+            </div>
+        </div>
+        <div class="item text-center border-2 p-3">
+            <h1 id="count" class="text-4xl">0</h1>
+            <div class="mt-5">
+                <button id="incriment" class=" bg-black text-white p-2 rounded-xl">incriment</button>
+                <button id="dicriment" class=" bg-red-300 text-white p-2 rounded-xl">decriment</button>
+            </div>
+        </div>
+        <div class="item text-center border-2 p-3">
+            <h1 id="count" class="text-4xl">0</h1>
+            <div class="mt-5">
+                <button id="incriment" class=" bg-black text-white p-2 rounded-xl">incriment</button>
+                <button id="dicriment" class=" bg-red-300 text-white p-2 rounded-xl">decriment</button>
+            </div>
+        </div>
+        <div class="item text-center border-2 p-3">
+            <h1 id="count" class="text-4xl">0</h1>
+            <div class="mt-5">
+                <button id="incriment" class=" bg-black text-white p-2 rounded-xl">incriment</button>
+                <button id="dicriment" class=" bg-red-300 text-white p-2 rounded-xl">decriment</button>
+            </div>
+        </div>
+     
+    </section>
+    <button id="reset" class=" bg-slate-700 mt-5 text-center text-white p-2 rounded-xl">Reset All Count</button>
+    <script src="./count.js"></script>
+</body>
+
+</html>
